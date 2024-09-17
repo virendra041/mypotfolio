@@ -138,6 +138,31 @@ header.sticky{
     align-items: center;
     gap: 4rem;
 }
+ 
+.about .content ul {
+    list-style: none;
+    padding: 0;
+  }
+  .row{
+display: flex;
+  }
+  
+  .about .content ul li {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .about .content ul strong {
+    margin-right: 10px;
+  }
+  
+  .about .content ul i {
+    font-size: 16px;
+    margin-right: 5px;
+    color: #149ddd;
+    line-height: 0;
+  }
 .about-img img{
     width: 100%;
     height: auto;
@@ -348,8 +373,8 @@ border-radius: 50%;
 .education{
     
     background: var(--second-bg-color);
-    
-    
+    width: 100%;
+    text-align: center;
  
 }
 .education h4{
@@ -390,6 +415,7 @@ border-radius: 50%;
 }
 .table th{
     color: var(--main-color);
+    font-size: 2rem;
 }
 
 @media (max-width:1600px) {
@@ -510,6 +536,16 @@ margin: 0 20px ;
 .in h4{
     font-size: 20px;
 }
+.education{
+    padding: 10px;
+}
+.education th{
+font-size: .8rem;
+}
+.education td{
+    font-size: .5rem;
+bottom: 5px;
+}
 }
 
 @media (max-width:460px){
@@ -525,3 +561,40 @@ margin: 0 20px ;
     }
 
 }
+/*--------------------------------------------------------------
+# Akills
+--------------------------------------------------------------*/
+.skills .progress {
+    height: 60px;
+    display: block;
+    background: none;
+    border-radius: 0;
+  }
+  
+  .skills .progress .skill {
+    padding: 0;
+    margin: 0 0 6px 0;
+    text-transform: uppercase;
+    display: block;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #050d18;
+  }
+  
+  .skills .progress .skill .val {
+    float: right;
+    font-style: normal;
+  }
+  
+  .skills .progress-bar-wrap {
+    background: #dce8f8;
+    height: 10px;
+  }
+  
+  .skills .progress-bar {
+    width: 1px;
+    height: 10px;
+    transition: 0.9s;
+    background-color: #149ddd;
+  }
+  
